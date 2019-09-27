@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    font-family: Georgia;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: hotpink;
+}
+
+p {
+    color: dimgray;
+}
+
+q {
+    font-style: italic;
+}
+br {
+
+}
