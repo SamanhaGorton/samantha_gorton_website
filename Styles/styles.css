@@ -24,6 +24,7 @@ h5 {
     color: red;
     background: pink;
     border: 3px dotted red;
+    padding: 3px dotted red;
 }
 p {
     color: dimgray;
@@ -47,4 +48,10 @@ dd {
 }
 .center {
     text-align: center;
+}
+.img1 {
+    width: 10%;
+}
+.img2 {
+    width: 11%;
 }
