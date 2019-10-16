@@ -6,7 +6,7 @@ body {
 h1 {
     color: steelblue;
     background-color: lightcyan;
-    border: 3px solid lightcoral ;
+    border: 3px solid lightcoral;
     box-shadow: 10px 10px 5px lightsteelblue;
 }
 
@@ -17,41 +17,65 @@ h2 {
 h3 {
     color: palevioletred;
     background-color: pink;
-    border : 3px solid lightcyan ;
-    box-shadow : 10px 10px 5px lightsteelblue ;
+    border: 3px solid lightcyan;
+    box-shadow: 10px 10px 5px lightsteelblue;
 }
+
 h5 {
     color: red;
     background: pink;
     border: 3px dotted red;
     padding: 3px dotted red;
 }
+
 p {
     color: dimgray;
+    text-shadow: 3px 3px 5px pink;
+    font-size: 17px;
 }
 
 q {
     font-style: italic;
+    margin-left: 3%
 }
-br {
 
-}
 dd {
-    color: darkslategray
+    color: darkslategray;
+    text-shadow: 3px 5px 5px pink;
 }
+
 #footer {
-    position: absolute;
+    position: relative;
     bottom: 10px;
     background-color: steelblue;
     width: 100%;
     height: 30px;
 }
+
 .center {
     text-align: center;
 }
+
 .img1 {
-    width: 10%;
+    width: 30%;
+    margin-top: 5%;
+    border: 5px solid steelblue;
+    margin-bottom: 5%
 }
+
 .img2 {
-    width: 11%;
+    width: 30%;
+    border: 5px solid steelblue;
+    margin-bottom: 5%;
+    margin-left: 4%
+}
+
+.crop {
+    position: absolute;
+    top: -2px;
+    left: -55px;
+    right: -55px;
+}
+td {
+    text-align: center;
 }
