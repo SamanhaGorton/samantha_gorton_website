@@ -34,6 +34,12 @@ p {
     font-size: 17px;
 }
 
+em {
+    color: dimgray;
+    text-shadow: 3px 3px 5px pink;
+    font-size: 17px;
+}
+
 q {
     font-style: italic;
     margin-left: 3%
@@ -46,7 +52,7 @@ dd {
 
 #footer {
     position: relative;
-    bottom: 10px;
+    bottom: -10%;
     background-color: steelblue;
     width: 100%;
     height: 30px;
@@ -59,23 +65,36 @@ dd {
 .img1 {
     width: 30%;
     margin-top: 5%;
-    border: 5px solid steelblue;
+    border: 5px solid pink;
     margin-bottom: 5%
 }
 
 .img2 {
-    width: 30%;
-    border: 5px solid steelblue;
+    width: 28%;
+    border: 5px solid pink;
     margin-bottom: 5%;
     margin-left: 4%
 }
 
-.crop {
-    position: absolute;
-    top: -2px;
-    left: -55px;
-    right: -55px;
+.img3 {
+    width: 90%;
+    border: 3px solid pink;
+    box-shadow: 50px 50px 15px steelblue;
 }
+
 td {
     text-align: center;
+}
+
+.menu {
+    color: lightcyan;
+    background-color: pink;
+    border: 3px solid lightcoral;
+    box-shadow: 10px 10px 5px steelblue;
+}
+
+.secret_menu {
+    color: lightblue;
+    backgound: lightblue;
+    text-shadow: 10px 10px 10px lightblue;
 }
